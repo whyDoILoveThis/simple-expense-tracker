@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+Td {
+    font-size: 18px;
+}
+
+.btn--trash {
+    color: lightblue;
+    border-radius: 99px;
+    padding: 0px;
+    margin:18px;
+    transition: padding 0.4s, margin 0.5s;
+}
+
+.btn--trash:hover {
+       color: white;
+    background-color: red;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
